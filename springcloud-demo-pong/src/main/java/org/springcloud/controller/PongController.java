@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class PongController {
 
     @Value("${hiAaron}")
-    private String hi;
+    private String message;
 
-    @GetMapping("/hi")
-    public String hi() {
-        return this.hi;
+    @GetMapping("/message")
+    public String getMessage() {
+        return this.message + "8083";
     }
 }

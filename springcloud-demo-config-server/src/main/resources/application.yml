@@ -1,14 +1,14 @@
 server:
   port: 8888
 spring:
+  application:
+    name: springcloud-demo-config-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/ConciseA/springcloud-demo/
           search-paths: config-repo
-  application:
-    name: springcloud-demo-config-server
 eureka:
   client:
     service-url:

@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      name: aaron-config
-      profile: dev
       uri: http://localhost:8888/
+      profile: dev
+      name: aaron-config
       label: master
