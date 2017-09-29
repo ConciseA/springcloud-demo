@@ -19,6 +19,8 @@
     <modules>
         <module>springcloud-demo-eureka</module>
         <module>springcloud-demo-config-server</module>
+        <module>springcloud-demo-ping</module>
+        <module>springcloud-demo-pong</module>
     </modules>
 
     <properties>

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: springcloud-demo-ping
+server:
+  port: 8081
