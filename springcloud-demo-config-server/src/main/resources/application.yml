@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ConciseA/springcloud-demo/
+          search-paths: config-repo
+  application:
+    name: springcloud-demo-config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
