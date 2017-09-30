@@ -12,6 +12,6 @@ public class PongController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return this.message + "8083";
+        return this.message;
     }
 }

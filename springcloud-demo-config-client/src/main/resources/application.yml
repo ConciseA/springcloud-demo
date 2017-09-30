@@ -1,5 +1,10 @@
 spring:
   application:
     name: springcloud-demo-config-client
+
 server:
   port: 8889
+
+management:
+  security:
+    enabled: false
