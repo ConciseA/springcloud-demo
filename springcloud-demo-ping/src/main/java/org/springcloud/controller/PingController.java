@@ -13,6 +13,6 @@ public class PingController {
 
     @GetMapping("/message")
     public String getMessage(){
-        return client.getMessage();
+        return client.getMessage() + " - ping";
     }
 }

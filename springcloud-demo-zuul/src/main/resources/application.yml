@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: springcloud-demo-zuul
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    api-ping:
+      path: /api-ping/**
+      serviceId: springcloud-demo-ping
+    api-pong:
+      path: /api-pong/**
+      serviceId: springcloud-demo-pong
