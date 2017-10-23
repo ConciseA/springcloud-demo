@@ -17,10 +17,10 @@
     </parent>
 
     <modules>
-        <module>springcloud-demo-eureka</module>
-        <module>springcloud-demo-config-server</module>
-        <module>springcloud-demo-ping</module>
-        <module>springcloud-demo-pong</module>
+        <module>springcloud-eureka</module>
+        <module>springcloud-config-server</module>
+        <module>springcloud-ping</module>
+        <module>springcloud-pong</module>
     </modules>
 
     <properties>
