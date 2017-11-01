@@ -19,8 +19,11 @@
     <modules>
         <module>springcloud-eureka</module>
         <module>springcloud-config-server</module>
+        <module>springcloud-config-server-kafka</module>
+        <module>springcloud-config-client</module>
         <module>springcloud-ping</module>
         <module>springcloud-pong</module>
+        <module>springcloud-zuul</module>
     </modules>
 
     <properties>

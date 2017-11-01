@@ -1,0 +1,16 @@
+server:
+  port: 5672
+
+spring:
+  application:
+    name: springcloud-config-server-kakfa
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ConciseA/springcloud-demo.git
+          search-paths: config-repo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
