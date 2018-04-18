@@ -1,6 +1,10 @@
 spring:
   application:
     name: springcloud-demo-ping
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
 
 server:
   port: 8081
@@ -12,7 +16,12 @@ eureka:
 
 feign:
   hystrix:
-    enabled: true
+    enabled: true  #开启feign熔断器
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+ribbon:
+  ConnectTimeout: 2000 # 请求连接的超时时间
+  ReadTimeout: 6000 # 请求处理的超时时间，默认5s
+
 
 logging:
   level:
