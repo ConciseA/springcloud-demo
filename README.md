@@ -19,6 +19,9 @@ springcloud示例项目，包含注册发现，配置中心，服务调用，熔
 ### springcloud-demo-zuul
 网关
 
+### springcloud-zipkin-server
+zipkin
+
 ### 示例运行
 #####  启动服务
 依次启动springcloud-demo-eureka, springcloud-demo-config-server, 然后启动其他模块ping, pong, zuul等。

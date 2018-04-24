@@ -1,6 +1,11 @@
 spring:
   application:
     name: springcloud-demo-zuul
+  zipkin:
+    base-url: http://localhost:9000
+  sleuth:
+      sampler:
+        percentage: 1.0
 server:
   port: 8080
 eureka:
