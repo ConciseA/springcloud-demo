@@ -7,7 +7,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>springcloud-demo</name>
-    <description>Demo project for Spring Boot</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,6 +23,7 @@
         <module>springcloud-ping</module>
         <module>springcloud-pong</module>
         <module>springcloud-zuul</module>
+        <module>springcloud-zipkin-server</module>
     </modules>
 
     <properties>
